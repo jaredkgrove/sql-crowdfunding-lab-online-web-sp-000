@@ -30,4 +30,4 @@ INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUE
 ("project 7", "category 1", 1, "01/01/2000", "01/02/2000"),
 ("project 8", "category 3", 1, "01/01/2000", "01/02/2000"),
 ("project 9", "category 3", 1, "01/01/2000", "01/02/2000"),
-("project 10", "category 1", 1, "01/01/2000", "01/02/2000"),
+("project 10", "category 1", 1, "01/01/2000", "01/02/2000");
