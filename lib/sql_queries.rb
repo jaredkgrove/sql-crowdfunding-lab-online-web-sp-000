@@ -27,8 +27,8 @@ end
 def selects_the_titles_and_amount_over_goal_of_all_projects_that_have_met_their_funding_goal
   "SELECT projects.title, SUM(pledges.amount) - projects.funding_goal
   FROM projects
-  INNER JOIN users
-  ON users.id = pledges.user_id
+  INNER JOIN pledges
+  ON projects.id = pledges.project_id
   GROUP BY users.name
   ORDER BY users.name"
 end
