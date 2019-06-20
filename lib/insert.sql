@@ -19,3 +19,15 @@ INSERT INTO users (name, age) VALUES
 ("name18", 18),
 ("name19", 19),
 ("name20", 20);
+
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES
+("project 1", "category 1", 1, "01/01/2000", "01/02/2000"),
+("project 2", "category 2", 1, "01/01/2010", "01/02/2020"),
+("project 3", "category 1", 1, "01/01/2000", "01/02/2000"),
+("project 4", "category 1", 1, "01/01/2000", "01/02/2000"),
+("project 5", "category 4", 1, "01/01/2000", "01/02/2000"),
+("project 6", "category 1", 1, "01/01/2000", "01/02/2000"),
+("project 7", "category 1", 1, "01/01/2000", "01/02/2000"),
+("project 8", "category 3", 1, "01/01/2000", "01/02/2000"),
+("project 9", "category 3", 1, "01/01/2000", "01/02/2000"),
+("project 10", "category 1", 1, "01/01/2000", "01/02/2000"),
