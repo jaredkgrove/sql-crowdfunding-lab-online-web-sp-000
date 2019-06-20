@@ -35,8 +35,8 @@ end
 
 def selects_user_names_and_amounts_of_all_pledges_grouped_by_name_then_orders_them_by_the_amount_and_users_name
   "SELECT users.name, pledges.amount
-  FROM projects
-  INNER JOIN pledges
+  FROM pledges
+  INNER JOIN users
   ON projects.id = pledges.project_id
   GROUP BY projects.title
   HAVING SUM(pledges.amount) >= projects.funding_goal"
